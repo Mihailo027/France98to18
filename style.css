@@ -1,0 +1,256 @@
+/************************************/
+/***** Eléments de base du site *****/
+/************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Encode Sans', sans-serif;
+  color: white;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px;
+}
+
+
+/******************************/
+/*****    Menu du site   ******/
+/******************************/
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+  height: 90px;
+  background-color: #0C7BD0;
+}
+
+header img {
+  height: 55px;
+}
+
+.bouton {
+  display: flex;
+  border: 2px solid white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+
+input, button {
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 10px;
+}
+
+
+
+/********************************************/
+/***** Ecran d'accueil avec la citation *****/
+/********************************************/
+
+.accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4px;
+  height: 80vh;
+  background-image: url('http://referentiel.nouvelobs.com/wsfile/8971356094316.jpg');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+.france18 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: 4px;
+height: 80vh;
+background-image: url('http://s1.lprs1.fr/images/2018/05/30/7743663_b31f420c-63fa-11e8-a665-72079dc6bc11-1_1000x625.jpg');
+background-size: cover;
+background-position: top;
+background-attachment: fixed;
+}
+
+.plus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4px;
+  height: 80vh;
+  background-image: url('http://www.andes.fr/wp-content/uploads/2018/03/FFF801_enroutepourlaRussie_KV_60x40-1024x682.jpg');
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+.bleu {
+  width: 100%;
+  height: 800px;
+}
+.white {
+  width: 100%;
+  height: 800px;
+}
+h1 {
+  font-size: 48px;
+  color: white;
+  text-shadow: 2px 2px #403d3d;
+  width: 50%
+}
+
+
+
+/***********************************************/
+/***** Section des bonnes raisons de venir *****/
+/***********************************************/
+
+.raisons {
+  display: flex;
+  padding: 30px 10%;
+  background-color: #0C7BD0;
+}
+
+.raisons ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.raisons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  color: #0C7BD0;
+}
+
+
+
+/*************************************************/
+/***** Section du burger avec sa description *****/
+/*************************************************/
+
+.recette {
+  display: flex;
+  justify-content: center;
+  background-color: #0C7BD0;
+  margin-top: 5px;
+  padding: 60px 20px;
+  border-bottom: 2px solid white;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 400px;
+  color: black;
+}
+
+.description h2 {
+  color: white;
+  font-size: 40px;
+}
+
+
+/********************************************/
+/*************   Section plats **************/
+/********************************************/
+
+.plats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #0C7BD0;
+}
+
+.plats > article {
+  width: calc(25% - 40px);
+  min-width: 200px;
+  margin: 50px 30px;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+.plats > article > header {
+  background-color: #0C7BD0;
+  color: white;
+}
+
+
+.plats > article > header > h4 {
+  text-align: center;
+  font-size: 1.7em;
+  margin:10px;
+}
+
+.plats img {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  display: block;
+}
+
+
+
+/********************************************/
+/***** Section Outils en bas de la page *****/
+/********************************************/
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-color: white;
+  min-height: 250px;
+}
+
+.tools > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  padding: 40px;
+}
+
+.tools h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.tools p {
+  text-align: center;
+  margin: 20px 0;
+}
