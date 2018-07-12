@@ -184,7 +184,7 @@ h1 {
   display: flex;
   justify-content: center;
   background-color: #0C7BD0;
-  margin-top: 5px;
+  margin-top: 2px;
   padding: 60px 20px;
   border-bottom: 2px solid white;
 }
@@ -217,7 +217,7 @@ h1 {
 .plats > article {
   width: calc(25% - 40px);
   min-width: 200px;
-  margin: 50px 30px;
+  margin-top: 3px;
   box-sizing: border-box;
   border-radius: 7px;
 }
@@ -235,7 +235,7 @@ h1 {
 
 .plats img {
   width: 100%;
-  margin: 0 auto 0 auto;
+  margin-top: 3px;
   display: block;
 }
 
